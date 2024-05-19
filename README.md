@@ -15,3 +15,12 @@ This repository contains a collection of projects demonstrating cloud infrastruc
 - Terraform
 
 **Project Structure**:
+- **`cloud_function/`**: Contains the source code for the Cloud Function.
+- **`cloud_run/`**: Contains the source code and Dockerfile for the Cloud Run service.
+- **`modules/cloud_run/`**: Terraform module for creating the Cloud Run service.
+- **`modules/cloud_functions/`**: Terraform module for creating the Cloud Function and related resources.
+- **`main.tf`**: Main Terraform configuration file that orchestrates the modules.
+- **`variables.tf`**: Variable definitions for the Terraform configuration.
+- **`outputs.tf`**: Output definitions for the Terraform configuration.
+- **`backend.tf`**: Terraform backend configuration for storing the state in Google Cloud Storage (GCS).
+- **`terraform.tfvars`**: Variable values for the Terraform configuration.
