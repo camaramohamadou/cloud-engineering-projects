@@ -1,8 +1,0 @@
-project_id                        = "YOUR_PROJECT_ID"
-region                            = "YOUR_REGION"
-cloud_run_name                    = "my-cloud-run-service"
-cloud_run_image                   = "gcr.io/YOUR_PROJECT_ID/my-cloud-run-image"
-cloud_function_name               = "my-cloud-function"
-cloud_function_entry_point        = "trigger_pubsub"
-cloud_function_source_archive_path = "cloud_function/function-source.zip"
-pubsub_topic_name                 = "my-topic"
